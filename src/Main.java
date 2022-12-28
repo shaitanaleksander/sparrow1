@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+       greetings("Arnold");
+    }
+
+    public static void greetings(String name) {
+        var text = "hello my friend ";
+        System.out.println(text + name);
     }
 }
